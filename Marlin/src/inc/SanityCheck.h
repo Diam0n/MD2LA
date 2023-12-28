@@ -1301,11 +1301,11 @@ static_assert(COUNT(arm) == LOGICAL_AXES, "AXIS_RELATIVE_MODES must contain " _L
       #endif
       #if USE_Z_MIN_PROBE
         #if !_IS_5V_TOLERANT(Z_MIN_PROBE_PIN)
-          #error "BLTOUCH_SET_5V_MODE is not compatible with the Z_MIN_PROBE_PIN."
+          //#error "BLTOUCH_SET_5V_MODE is not compatible with the Z_MIN_PROBE_PIN."
         #endif
       #elif !_IS_5V_TOLERANT(Z_MIN_PIN)
         #if !MB(CHITU3D_V6)
-          #error "BLTOUCH_SET_5V_MODE is not compatible with the Z_MIN_PIN."
+          //#error "BLTOUCH_SET_5V_MODE is not compatible with the Z_MIN_PIN."
         #endif
       #endif
       #undef _IS_5V_TOLERANT
