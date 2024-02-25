@@ -1,3 +1,16 @@
+Mingda D2 MD301 TMC2208
+My first 3D printer, my first try of updating firmware
+Using code fix from https://github.com/marcellodum/marlin-mingda-md-d301
+
+Marlin bugfix 2.1.x from 25.12.23
+
+Bltouch enabled
+UBL enabled
+Liner Advance enaabled
+UI - LVGL
+
+GLHF
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
